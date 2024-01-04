@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost:7053');
+var socket = io.connect('https://real-time-chat-tuac.onrender.com/');
 var userName = document.getElementById("usrname");
 var userMsg = document.getElementById("msg");
 var btnSend = document.getElementById("btn");
